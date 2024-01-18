@@ -1,5 +1,3 @@
-Create two parent classes Person and Company respectively.  Create one child called Employee which inherit from Person and Company classes to implement Multiple inheritance.   To demonstrate Multilevel inheritance three classes named Vehicle, Car, SportsCar need to be created. Vehicle is the superclass, Car is a child of Vehicle, SportsCar is a child of Car.
-
 class Person():
   def __init__(self, name, age):
     self.name = name
