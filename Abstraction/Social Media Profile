@@ -66,7 +66,7 @@ class Admin(UserProfile):
             print(f"Invalid post_id: {post_id}")
 
 # Example Usage:
-regular_user = RegularUser("Sumaiya_Khanum", "summu@gmail.com", "password123")
+regular_user = RegularUser("Vinit", "vinit@gmail.com", "password123")
 admin_user = Admin("admin", "admin@outlook.com", "admin_password")
 
 regular_user.post("Hello, everyone! This is my first post.")
